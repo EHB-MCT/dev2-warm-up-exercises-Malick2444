@@ -6,6 +6,11 @@ import {
 
 runTitle();
 
+//const to make variable, button1a so that know first button, document.getelementbyID to get the html element called button-1a
+const button1a = document.getElementById('button-1a')
+//also const for content meaning what ssupposed to appear
+const content1 = document.getElementById('content-1')
+
 function warmup1() {
     console.log("Exercise week 1");
 }
